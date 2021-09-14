@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RealmDB.RealmActivity">
+
+    <Button
+        android:id="@+id/btn_crt"
+        android:text="CREAT"
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_rda"
+        android:text="READ_ALL"
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_rdbi"
+        android:text="READ_BY_ID"
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_dela"
+        android:text="DELETE_ALL"
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_delbi"
+        android:text="DELETE_BY_ID"
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:text="UPDATE"
+        android:onClick="onClick"
+        android:textSize="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
